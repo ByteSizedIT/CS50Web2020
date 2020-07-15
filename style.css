@@ -69,6 +69,8 @@ h1 {
 #search {
   margin: auto;
   width: 40vw;
+  position: relative;
+  
 }
    
 #text {
