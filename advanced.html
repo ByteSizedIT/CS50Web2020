@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link href="style.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div id=topBar>
+            <h2><span id="g">G</span><span id ="o">o</span><span id="o2">o</span><span id="g2">g</span><span id = "l">l</span><span id="e">e</span></h2>
+            
+            <div id="links">
+                <a href="index.html">Google Search</a>
+                <a href="image.html">Image Search</a>
+            </div>
+        </div>
+        <div id="advanced">
+            <label>Advanced Search</label>
+        </div>
+        <div id="formContainer">
+            <form action="https://google.com/search">
+
+                <div id="headlb" class="lb">
+                    <div class="content">
+                        <span id="introText">Find pages with...</span>
+                    </div>
+                </div>    
+
+                <div class="cb">
+                </div>
+
+                <div id="headrb" class="rb">
+                    <div class="content">
+                        <span id="introNotes">To do this in the search box.</span>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="lb rowlb">
+                        <div class=content>
+                            <label>all these words:</label>
+                        </div>
+                    </div>
+
+                    <div class="cb">
+                        <div class="">
+                            <input class="textInput" type="text" name="as_q">
+                        </div>
+                    </div>
+
+                    <div class="rb rowrb">
+                        <div class="content">
+                            Type the important words:  <span class="eg">tri-colour rat terrier</span>
+                        </div>
+                    </div>
+                </div>
+
+                
+                
+                <div class="row">
+                    <div class="lb rowlb">
+                        <div class="content">
+                            <label>this exact word or phrase:</label>
+                        </div>
+                    </div>
+
+                    <div class="cb">
+                        <div class="">
+                            <input class="textInput" type="text" name="as_epq">
+                        </div>
+                    </div>
+
+                    <div class="rb rowrb">
+                        <div class="content">
+                            Put exact words in quotes:  <span class="eg">"rat terrier"</span>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="row">
+                    </row><div class="lb rowlb">
+                        <div class="content">
+                            <label>any of these words:</label>
+                        </div>
+                    </div>
+
+                    <div class="cb">
+                        <div class="">
+                            <input class="textInput" type="text" name="as_oq">
+                        </div>
+                    </div>
+
+                    <div class="rb rowrb">
+                        <div class="content">
+                            Type OR between all the words you want:  <span class="eg">miniature OR standard</span>
+                        </div>
+                    </div> 
+                </div>                
+
+
+                <div class="row">
+                    <div class="lb rowlb">
+                        <div class="content">
+                            <label>none of these words:</label>
+                        </div>
+                    </div>
+
+                    <div class="cb">
+                        <div class="">
+                            <input class="textInput" type="text" name="as_eq">
+                        </div>
+                    </div>
+
+                    <div class="rb rowrb">
+                        <div class="content">
+                            Put a minus sign just before words that you don't want:  <span class="eg">-rodent, -"Jack Russell"</span>
+                        </div>
+                    </div>  
+                </div>
+
+
+                <div class="submit">
+                    <div class="lb">
+                        <div class="content">
+                        </div>
+                    </div>
+
+                    <div class="cb">
+                        <input id="advancedSubmit" type="submit" value="Advanced Search">
+                    </div>
+
+                    <div class="rb rowrb">
+                        <div class="content">
+                        </div>
+                    </div>  
+                </div>
+
+                
+            </form>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
